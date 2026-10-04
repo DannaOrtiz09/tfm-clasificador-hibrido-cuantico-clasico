@@ -1,0 +1,3 @@
+model,encoder,middle,classifier,total
+hybrid,50760,96,90,50946
+classical_equivalent,50760,72,90,50922

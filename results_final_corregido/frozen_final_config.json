@@ -1,0 +1,47 @@
+{
+  "status": "FROZEN_BEFORE_ANY_FINAL_TEST_EVALUATION",
+  "timestamp_unix": 1787583709.9005132,
+  "config": {
+    "run_name": "FROZEN_BEFORE_TEST",
+    "seed": 42,
+    "split_seed": 2026,
+    "n_qubits": 8,
+    "n_layers": 4,
+    "entangler": "strong",
+    "encoding": "amplitude",
+    "encoder_hidden_dim": 64,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "epochs": 15,
+    "val_split": 0.1,
+    "early_stopping_patience": 4,
+    "device": "cpu",
+    "data_dir": "./data",
+    "checkpoint_dir": "./checkpoints_final_corregido",
+    "results_dir": "./results_final_corregido",
+    "results_csv": "./results_final_corregido/experiments_final_corregido.csv",
+    "enforce_encoder_gradient": true
+  },
+  "selection_seeds": [
+    42,
+    123,
+    2024
+  ],
+  "final_seeds": [
+    7,
+    11,
+    17,
+    31,
+    73,
+    99,
+    256,
+    314,
+    512,
+    777,
+    1001,
+    2025
+  ],
+  "selection_metric": "validation_accuracy",
+  "test_used_during_selection": false,
+  "encoder_definition": "784 -> encoder_hidden_dim -> n_qubits for every branch and encoding"
+}

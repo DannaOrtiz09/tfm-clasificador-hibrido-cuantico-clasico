@@ -1,0 +1,6 @@
+{
+  "representative_seed": 256,
+  "criterion": "hybrid test accuracy closest to final hybrid mean",
+  "hybrid_test_accuracy": 0.9474,
+  "classical_test_accuracy": 0.9624
+}

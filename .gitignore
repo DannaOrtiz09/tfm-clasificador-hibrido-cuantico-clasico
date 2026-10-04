@@ -1,0 +1,17 @@
+# Datos y artefactos pesados
+data/
+checkpoints*/
+**/checkpoints_cnn/
+*.pt
+*.pth
+# Salidas locales de las versiones históricas
+/results/
+historico/**/results/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# Sistema
+.DS_Store
+Thumbs.db
