@@ -1,0 +1,13 @@
+{
+  "seed": 73,
+  "val_accuracy": 0.9886666666666667,
+  "val_loss": 0.03952317955220739,
+  "test_accuracy": 0.9877,
+  "macro_f1": 0.987603683655108,
+  "training_time_sec": 254.51686000823975,
+  "n_trainable_params": 105866,
+  "best_epoch": 9,
+  "epochs_ran": 13,
+  "prediction_file": "./results_comparativa_3_modelos/predictions_cnn/final_cnn_seed73.npz",
+  "history_file": "./results_comparativa_3_modelos/histories_cnn/history_cnn_seed73.csv"
+}

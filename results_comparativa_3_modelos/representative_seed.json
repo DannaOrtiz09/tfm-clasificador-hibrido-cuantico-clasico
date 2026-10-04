@@ -1,0 +1,4 @@
+{
+  "representative_seed": 17,
+  "criterion": "minimum standardized distance to the three model mean accuracies"
+}

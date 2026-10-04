@@ -1,0 +1,29 @@
+{
+  "status": "THREE_MODEL_COMPARISON_COMPLETED",
+  "source_results": "./results_final_corregido",
+  "output_dir": "./results_comparativa_3_modelos",
+  "final_seeds": [
+    7,
+    11,
+    17,
+    31,
+    73,
+    99,
+    256,
+    314,
+    512,
+    777,
+    1001,
+    2025
+  ],
+  "hybrid_and_classical_reused": true,
+  "cnn_evaluated_now": true,
+  "cnn_architecture": "Conv2d(1,16,3)+ReLU+MaxPool -> Conv2d(16,32,3)+ReLU+MaxPool -> Flatten -> Linear(1568,64)+ReLU -> Linear(64,10)",
+  "methodological_note": "Hybrid vs ClassicalEquivalent is the controlled ablation. CNN is a contextual classical reference, not a causal ablation.",
+  "files": {
+    "per_seed": "three_model_final_results.csv",
+    "summary": "three_model_summary.csv",
+    "pairwise_statistics": "pairwise_statistics.csv",
+    "per_class": "per_class_f1_three_models.csv"
+  }
+}

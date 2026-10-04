@@ -1,0 +1,13 @@
+{
+  "seed": 2025,
+  "val_accuracy": 0.9881666666666666,
+  "val_loss": 0.036481022630197306,
+  "test_accuracy": 0.9903,
+  "macro_f1": 0.9902426276233752,
+  "training_time_sec": 256.0820679664612,
+  "n_trainable_params": 105866,
+  "best_epoch": 9,
+  "epochs_ran": 13,
+  "prediction_file": "./results_comparativa_3_modelos/predictions_cnn/final_cnn_seed2025.npz",
+  "history_file": "./results_comparativa_3_modelos/histories_cnn/history_cnn_seed2025.csv"
+}
